@@ -1,0 +1,103 @@
+/* Používáme intuitivní výpočet rozměrů prvků. */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+
+/* Styles for information.html */
+
+
+
+
+/* Styles for about.html */
+
+.container--about {
+  background-color: chocolate;
+}
+
+.about-team {
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+      margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+      margin-bottom: 30px;
+  }
+}
+
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #212121;
+}
+
+.team-li {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+  }
+}
+
+.team-li:last-child {
+  margin-bottom: 0;
+}
+
