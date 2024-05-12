@@ -7,8 +7,23 @@ html {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 20rem;
   margin-right: auto;
   margin-left: auto;
 }
+
+
+
+
+/* Styles for information.html */
+
+
+
+
+/* Styles for about.html */
+
