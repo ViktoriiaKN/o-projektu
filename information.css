@@ -1,0 +1,16 @@
+.container--info {
+  margin-bottom: 30px;
+}
+
+.information-text h2 {
+  background-color: #f58f18;
+  padding: 10px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.information-text p {
+  margin: 0 20px;
+}
