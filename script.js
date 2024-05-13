@@ -1,5 +1,5 @@
 //add .active class for the active page in the nav:
-const currentPage = document.location.pathname.slice(1).split('.')[0];
+const currentPage = document.location.pathname.slice(12).split('.')[0];
 const links = document.querySelectorAll('nav a');
 
 links.forEach((link) => {
@@ -8,7 +8,7 @@ links.forEach((link) => {
 
   if (hrefWithoutExtension === currentPage) {
     link.classList.add('active-nav');
-  } 
+  }
 });
 
 //teaser search
@@ -22,7 +22,7 @@ const afterSubmit = (event) => {
   <p class="teaser__text">
     ha-ha!<br>wait for Volando to be released!
   </p>
-  `
-}
+  `;
+};
 
-questionary.addEventListener('submit', afterSubmit)
+questionary.addEventListener('submit', afterSubmit);
