@@ -1,0 +1,74 @@
+
+.main-title {
+  text-align: center;
+  color: #34bbd1;
+  margin-top: 50px;
+  font-weight: 300;
+}
+
+.main-title img {
+  display: block;
+  margin: 40px auto;
+  width: 200px;
+}
+
+.questionary {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.questionary h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #34bbd1;
+  font-weight: 400;
+}
+
+.questionary p {
+  font-size: 0.8em;
+  /* Slightly smaller text for explanation */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.questionary div {
+  margin-bottom: 10px;
+}
+
+.questionary input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.questionary label {
+  cursor: pointer;
+  /* Makes the label clickable */
+}
+
+.questionary button {
+  display: block;
+  /* Makes the button fill the width */
+  margin: 26px auto 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f58f18;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+  /* Smooth hover effect */
+}
+
+.questionary button:hover {
+  background-color: #02997e;
+}
+
+.index-pic {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
