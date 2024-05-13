@@ -44,12 +44,12 @@
   gap: 30px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .section-team-ul {
     flex-wrap: nowrap;
   }
 }
-
+ 
 .about-team {
   font-style: normal;
   font-size: 18px;
