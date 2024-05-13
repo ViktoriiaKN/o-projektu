@@ -1,6 +1,12 @@
 /* Používáme intuitivní výpočet rozměrů prvků. */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 html {
@@ -16,17 +22,14 @@ img {
   max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
 ul {
-  margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.icon-list-team {
+  display: flex;
+  gap: 10px;
 }
 
 button {
@@ -35,19 +38,108 @@ button {
 }
 
 .container {
-  max-width: 20rem;
+  max-width: 50%;
   margin-right: auto;
   margin-left: auto;
 }
 
+/* header & nav */
+header {
+background-color: #34bbd1;
+}
+
+nav {
+  display: flex; /* Makes the navigation items display horizontally */
+  justify-content: center; /* Centers the navigation items within the header */
+  width: 50%; /* Sets the navigation bar to take 50% of the page width */
+  margin: 0 auto; /* Centers the navigation bar horizontally within the header */
+}
+
+nav a {
+  text-decoration: none; /* Removes underline from links */
+  color: #fff; /* Link text color */
+  padding: 18px 15px; /* Padding for each link */
+  border: 1px solid transparent; /* Creates a border that changes on hover */
+  font-weight: bold; /* Makes the links a bit bolder */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth hover effects */
+}
+
+nav a:hover {
+  background-color: #ddd; /* Background color on hover */
+  color: #000; /* Text color on hover */
+}
 
 
+/* styles for index */
 
+.main-title {
+  text-align: center;
+}
+
+.main-title img {
+  display: block;
+  margin: 36px auto;
+  width: 200px;
+}
+
+.questionary {
+  width: fit-content; /* Adjusts width based on content */
+  margin: 0 auto; /* Centers the form horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: sans-serif; /* Choose your preferred font */
+}
+
+.questionary h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0182d3;
+}
+
+.questionary p {
+  font-size: 0.8em; /* Slightly smaller text for explanation */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.questionary div {
+  margin-bottom: 10px;
+}
+
+.questionary input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.questionary label {
+  cursor: pointer; /* Makes the label clickable */
+}
+
+.questionary button {
+  display: block; /* Makes the button fill the width */
+  margin: 26px auto 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f58f18; 
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.questionary button:hover {
+  background-color: #02997e; 
+}
+
+.index-pic {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
 
 
 /* Styles for information.html */
-
-
 
 
 /* Styles for about.html */
@@ -118,6 +210,9 @@ button {
 }
 
 
+.section-team-ul {
+  display: flex;
+}
 .about-team {
   font-style: normal;
   font-size: 16px;
@@ -128,11 +223,11 @@ button {
   margin-bottom: 30px;
 
   @media screen and (min-width: 768px) {
-      margin-bottom: 16px;
+    margin-bottom: 16px;
   }
 
   @media screen and (min-width: 1200px) {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -144,18 +239,19 @@ button {
 }
 
 .team-li {
+  width: 50%;
   margin-bottom: 30px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
   @media screen and (min-width: 768px) {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   @media screen and (min-width: 1200px) {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -163,6 +259,9 @@ button {
   margin-bottom: 0;
 }
 
+.social-icon {
+  width: 20px;
+}
 .icon-list-team {
   display: flex;
   justify-content: center;
