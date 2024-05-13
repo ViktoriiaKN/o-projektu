@@ -27,11 +27,6 @@ ul {
   list-style: none;
 }
 
-.icon-list-team {
-  display: flex;
-  gap: 10px;
-}
-
 button {
   font-family: inherit;
   cursor: pointer;
@@ -138,155 +133,10 @@ nav a:hover {
   margin: 20px auto;
 }
 
-
-/* Styles for information.html */
-
-
-/* Styles for about.html */
-
-.container--about {
-  background-color: chocolate;
-}
-
-.container-p {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  text-align: center;
-
-}
-
-.list-wraper {
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.title-main {
-  text-align: center;
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: calc(33 / 28);
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 30px;
-
-  @media screen and (min-width: 1200px) {
-      margin-bottom: 50px;
-      font-size: 36px;
-      line-height: calc(42 / 36);
-  }
-}
-
-.section-team {
-  background: #f5f4fa;
-  padding-top: 60px;
-  padding-bottom: 60px;
-
-  @media screen and (min-width: 1200px) {
-      padding-top: 94px;
-          padding-bottom: 94px;
-  }
-}
-
-.section-team-ul {
-  display: block;
-
-  @media screen and (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-  }
-  
-  @media screen and (min-width: 1200px) {
-      display: flex;
-      flex-wrap: nowrap;
-      gap: 30px;
-  }
-}
-
-
-.section-team-ul {
-  display: flex;
-}
-.about-team {
-  font-style: normal;
-  font-size: 16px;
-  line-height: calc(19 / 16);
-  letter-spacing: 0.03em;
-  color: #757575;
-  margin-top: 10px;
-  margin-bottom: 30px;
-
-  @media screen and (min-width: 768px) {
-    margin-bottom: 16px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 30px;
-  }
-}
-
-.team {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(19 / 16);
-  color: #212121;
-}
-
-.team-li {
-  width: 50%;
-  margin-bottom: 30px;
-  background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0;
-  }
-
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 0;
-  }
-}
-
-.team-li:last-child {
-  margin-bottom: 0;
-}
-
 .social-icon {
   width: 20px;
 }
-.icon-list-team {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.icon-team {
-  width: 44px;
-  height: 44px;
-  background-color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #afb1b8;
 
 
-&:hover,
-&:focus {
-  background-color: #2196f3;
-  fill: white;
-}
 
-&:focus .team-icon-li {
-  fill: white;
-}}
+
