@@ -45,6 +45,12 @@ button {
   text-align: center;
 }
 
+.main-title img {
+  display: block;
+  margin: 36px auto;
+  width: 200px;
+}
+
 .questionary {
   width: fit-content; /* Adjusts width based on content */
   margin: 0 auto; /* Centers the form horizontally */
@@ -57,6 +63,7 @@ button {
 .questionary h2 {
   margin-bottom: 10px;
   text-align: center;
+  color: #0182d3;
 }
 
 .questionary p {
@@ -80,7 +87,7 @@ button {
 
 .questionary button {
   display: block; /* Makes the button fill the width */
-  margin: 10px auto;
+  margin: 26px auto 10px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
