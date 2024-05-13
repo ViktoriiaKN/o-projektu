@@ -9,7 +9,13 @@
 
 .list-wraper {
   margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+.list-wraper {
   padding: 0 15px;
+}
 }
 
 .title-main {
@@ -34,7 +40,13 @@
 }
 
 .section-team {
-  padding: 10px 20px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section-team {
+    padding: 10px 20px;
+  }
 }
 
 
@@ -88,6 +100,13 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+@media screen and (max-width: 768px) {
+  .team-li {
+    width: calc(100% - 20px); /* Зменшення ширини картки */
+    margin: 0 auto 20px; /* Зменшення відступів та центрування */
+    max-width: 350px; /* Максимальна ширина для кращого вигляду на малих екранах */
+  }}
 
 @media screen and (min-width: 768px) {
   .team-li {

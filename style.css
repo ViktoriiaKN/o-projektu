@@ -36,9 +36,16 @@ button {
 }
 
 .container {
-  max-width: 50%;
+  padding: 15px 25px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 50%;
+    padding: 0;
+  }
 }
 
 /* header & nav */
