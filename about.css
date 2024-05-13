@@ -3,13 +3,8 @@
 }
 
 .container-p {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-
+  padding: 30px 20px;
   text-align: center;
-
 }
 
 .list-wraper {
@@ -29,65 +24,58 @@
   color: #f58f18;
   margin-bottom: 30px;
 
-  @media screen and (min-width: 1200px) {
-      margin-bottom: 50px;
-      font-size: 36px;
-      line-height: calc(42 / 36);
+}
+
+@media screen and (min-width: 1200px) {
+  .section-title {
+    margin-bottom: 50px;
+  font-size: 36px;
+  line-height: calc(42 / 36);
   }
 }
 
 .section-team {
-  background: #f5f4fa;
-  padding-top: 60px;
-  padding-bottom: 60px;
-
-  @media screen and (min-width: 1200px) {
-      padding-top: 94px;
-          padding-bottom: 94px;
-  }
-}
-
-.section-team-ul {
-  display: block;
-
-  @media screen and (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-  }
-  
-  @media screen and (min-width: 1200px) {
-      display: flex;
-      flex-wrap: nowrap;
-      gap: 30px;
-  }
+  padding: 10px 20px;
 }
 
 
 .section-team-ul {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
+
+@media screen and (min-width: 1200px) {
+  .section-team-ul {
+    flex-wrap: nowrap;
+  }
+}
+
 .about-team {
   font-style: normal;
-  font-size: 16px;
+  font-size: 19px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
   margin-bottom: 30px;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .about-team {
     margin-bottom: 16px;
   }
+}
 
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .about-team {
     margin-bottom: 30px;
   }
 }
 
 .team {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 25px;
   line-height: calc(19 / 16);
   color: #212121;
 }
@@ -99,12 +87,16 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .team-li {
     margin-bottom: 0;
   }
+}
 
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .team-li {
     margin-bottom: 0;
   }
 }
@@ -130,14 +122,15 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
+}
 
-
-&:hover,
-&:focus {
+  .icon-team:hover,
+  .icon-team:focus {
   background-color: #f58f18;
   fill: white;
 }
 
-&:focus .team-icon-li {
+
+.icon-team:focus .team-icon-li {
   fill: white;
-}}
+}
