@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
 /* Používáme intuitivní výpočet rozměrů prvků. */
 *,
 *:before,
@@ -10,7 +12,9 @@ body {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: #323131;
+  font-size: 15px;
 }
 
 a {
@@ -45,28 +49,28 @@ button {
 
 /* header & nav */
 header {
-background-color: #34bbd1;
+  background-color: #34bbd1;
 }
 
 nav {
-  display: flex; /* Makes the navigation items display horizontally */
-  justify-content: center; /* Centers the navigation items within the header */
-  width: 50%; /* Sets the navigation bar to take 50% of the page width */
-  margin: 0 auto; /* Centers the navigation bar horizontally within the header */
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
 }
 
 nav a {
-  text-decoration: none; /* Removes underline from links */
-  color: #fff; /* Link text color */
-  padding: 18px 15px; /* Padding for each link */
-  border: 1px solid transparent; /* Creates a border that changes on hover */
-  font-weight: bold; /* Makes the links a bit bolder */
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth hover effects */
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 25px;
+  font-weight: 400;
+  font-size: 17px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  /* Smooth hover effects */
 }
 
 nav a:hover {
-  background-color: #ddd; /* Background color on hover */
-  color: #000; /* Text color on hover */
+  background-color: #f58f18;
 }
 
 
@@ -74,31 +78,35 @@ nav a:hover {
 
 .main-title {
   text-align: center;
+  color: #34bbd1;
+  margin-top: 50px;
+  font-weight: 300;
 }
 
 .main-title img {
   display: block;
-  margin: 36px auto;
+  margin: 40px auto;
   width: 200px;
 }
 
 .questionary {
-  width: fit-content; /* Adjusts width based on content */
-  margin: 0 auto; /* Centers the form horizontally */
+  width: fit-content;
+  margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-family: sans-serif; /* Choose your preferred font */
 }
 
 .questionary h2 {
   margin-bottom: 10px;
   text-align: center;
-  color: #0182d3;
+  color: #34bbd1;
+  font-weight: 400;
 }
 
 .questionary p {
-  font-size: 0.8em; /* Slightly smaller text for explanation */
+  font-size: 0.8em;
+  /* Slightly smaller text for explanation */
   margin-bottom: 15px;
   text-align: center;
 }
@@ -113,23 +121,27 @@ nav a:hover {
 }
 
 .questionary label {
-  cursor: pointer; /* Makes the label clickable */
+  cursor: pointer;
+  /* Makes the label clickable */
 }
 
 .questionary button {
-  display: block; /* Makes the button fill the width */
+  display: block;
+  /* Makes the button fill the width */
   margin: 26px auto 10px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #f58f18; 
+  background-color: #f58f18;
   color: white;
-  font-weight: bold;
-  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  font-weight: 400;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+  /* Smooth hover effect */
 }
 
 .questionary button:hover {
-  background-color: #02997e; 
+  background-color: #02997e;
 }
 
 .index-pic {
@@ -141,6 +153,22 @@ nav a:hover {
 
 /* Styles for information.html */
 
+.container--info {
+  margin-bottom: 30px;
+}
+
+.information-text h2 {
+  background-color: #f58f18;
+  padding: 10px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.information-text p {
+  margin: 0 20px;
+}
 
 /* Styles for about.html */
 
@@ -151,6 +179,7 @@ nav a:hover {
 .section-team-ul {
   display: flex;
 }
+
 .about-team {
   font-style: normal;
   font-size: 16px;
