@@ -18,15 +18,7 @@ img {
   max-width: 100%;
 }
 
-/* h1,
-h2,
-h3,
-p {
-  margin: 0;
-} */
-
 ul {
-  /* margin: 0;*/
   padding: 0;
   list-style: none;
 }
@@ -47,9 +39,66 @@ button {
   margin-left: auto;
 }
 
+/* styles for index */
 
+.main-title {
+  text-align: center;
+}
 
+.questionary {
+  width: fit-content; /* Adjusts width based on content */
+  margin: 0 auto; /* Centers the form horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: sans-serif; /* Choose your preferred font */
+}
 
+.questionary h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.questionary p {
+  font-size: 0.8em; /* Slightly smaller text for explanation */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.questionary div {
+  margin-bottom: 10px;
+}
+
+.questionary input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.questionary label {
+  cursor: pointer; /* Makes the label clickable */
+}
+
+.questionary button {
+  display: block; /* Makes the button fill the width */
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f58f18; 
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.questionary button:hover {
+  background-color: #02997e; 
+}
+
+.index-pic {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
 
 
 /* Styles for information.html */
