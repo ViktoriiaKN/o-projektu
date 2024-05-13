@@ -31,11 +31,6 @@ ul {
   list-style: none;
 }
 
-.icon-list-team {
-  display: flex;
-  gap: 10px;
-}
-
 button {
   font-family: inherit;
   cursor: pointer;
@@ -170,6 +165,7 @@ nav a:hover {
   margin: 0 20px;
 }
 
+
 /* Styles for about.html */
 
 .container--about {
@@ -179,7 +175,6 @@ nav a:hover {
 .section-team-ul {
   display: flex;
 }
-
 .about-team {
   font-style: normal;
   font-size: 16px;
@@ -229,3 +224,7 @@ nav a:hover {
 .social-icon {
   width: 20px;
 }
+
+
+
+
