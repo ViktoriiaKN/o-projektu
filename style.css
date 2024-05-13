@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 html {
   font-family: sans-serif;
 }
@@ -38,6 +42,33 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
+
+/* header & nav */
+header {
+background-color: #34bbd1;
+}
+
+nav {
+  display: flex; /* Makes the navigation items display horizontally */
+  justify-content: center; /* Centers the navigation items within the header */
+  width: 50%; /* Sets the navigation bar to take 50% of the page width */
+  margin: 0 auto; /* Centers the navigation bar horizontally within the header */
+}
+
+nav a {
+  text-decoration: none; /* Removes underline from links */
+  color: #fff; /* Link text color */
+  padding: 18px 15px; /* Padding for each link */
+  border: 1px solid transparent; /* Creates a border that changes on hover */
+  font-weight: bold; /* Makes the links a bit bolder */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth hover effects */
+}
+
+nav a:hover {
+  background-color: #ddd; /* Background color on hover */
+  color: #000; /* Text color on hover */
+}
+
 
 /* styles for index */
 
