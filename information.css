@@ -2,6 +2,13 @@
   margin-bottom: 30px;
 }
 
+.information__title {
+  text-align: center;
+  color: #34bbd1;
+  margin-top: 50px;
+  font-weight: 300;
+}
+
 .information-text h2 {
   background-color: #f58f18;
   padding: 10px;

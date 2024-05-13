@@ -64,7 +64,13 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #f58f18;
+  background-color: #cef7fe;
+  color: #34bbd1;
+}
+
+.active-nav {
+  background-color: #cef7fe;
+  color: #34bbd1;
 }
 
 /* Styles for about.html */
