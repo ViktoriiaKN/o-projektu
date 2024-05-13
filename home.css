@@ -41,6 +41,12 @@
   margin-right: 5px;
 }
 
+.questionary input[type="checkbox"]:checked {
+  /* Define the styles for checked checkboxes here */
+  /* For example, you could change the background color */
+  background-color: #008000; /* Green */
+}
+
 .questionary label {
   cursor: pointer;
   /* Makes the label clickable */

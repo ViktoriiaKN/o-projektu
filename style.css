@@ -64,7 +64,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #cef7fe;
+  background-color: #a7f2ff;
   color: #34bbd1;
 }
 
@@ -73,6 +73,14 @@ nav a:hover {
   color: #34bbd1;
 }
 
+.teaser__text {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: normal;
+  color: #34bbd1;
+  margin: 60px auto;
+}
 /* Styles for about.html */
 
 .social-icon {
