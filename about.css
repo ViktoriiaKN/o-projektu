@@ -102,9 +102,9 @@
 
 @media screen and (max-width: 768px) {
   .team-li {
-    width: calc(100% - 20px); 
+    width: calc(100% - 30px); 
     margin: 0 auto 20px; 
-    max-width: 350px; 
+    max-width: 100%; 
     min-height: auto;
   }}
 
